@@ -13,3 +13,7 @@ Esse projeto foi proposto como o primeiro desafio da trilha Front End da Alura e
 No fim, quis dar mais alguns detalhes visuais e funcionalidades adicionando um efeito utilizando animação CSS com JavaScript e, conectando o formulário à um banco de dados, nesse caso, fiz uso do Firebase.
 
 ![Portfolio-Alura](https://user-images.githubusercontent.com/70165034/195151401-15cac2df-8e71-461a-9b62-1e6daa1d6b8a.png)
+
+badge won with this project by Oracle:
+
+![badge desafio3](https://user-images.githubusercontent.com/70165034/195154848-1b7feca5-19f1-4ef0-a7f0-2f7d3bb28e8a.png)
