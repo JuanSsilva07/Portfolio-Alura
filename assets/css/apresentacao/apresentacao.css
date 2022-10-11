@@ -1,0 +1,12 @@
+.principal__apresentacao{
+    display: flex;
+    justify-content: center;
+    margin: 3rem 0;
+}
+
+@media screen and (max-width: 425px) {
+    .principal__apresentacao{
+        flex-direction: column-reverse;
+        margin: 1rem;
+    }
+}

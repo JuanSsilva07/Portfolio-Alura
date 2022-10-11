@@ -1,0 +1,11 @@
+.formacao__lista{
+    display: flex;
+    justify-content: space-around;
+}
+
+@media screen and (max-width: 425px) {
+    .formacao__lista{
+        flex-wrap: wrap;
+        padding: 0;
+    }
+}

@@ -1,0 +1,13 @@
+.principal__titulo{
+    color: var(--cinza-escuro);
+    font-weight: 700;
+    font-size: 2.5rem;
+    line-height: 3rem;
+}
+
+@media screen and (max-width: 768px) {
+    .principal__titulo{
+        font-size: 1.3rem;
+        line-height: 25.83px;
+    }
+}

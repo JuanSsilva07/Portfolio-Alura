@@ -1,0 +1,13 @@
+.cabecalho__logotipo {
+  color: var(--cinza-escuro);
+  font-weight: 700;
+  margin-left: 0.5rem;
+  line-height: 18.78px;
+  /* O código abaixo retira a opção de copiar, tornando o texto inserido em um logotipo */
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+}

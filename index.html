@@ -1,0 +1,469 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfólio | Juan Soares</title>
+    <!-- Linkando FontStyle -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Aplicando o normalize -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css"
+      integrity="sha512-oHDEc8Xed4hiW6CxD7qjbnI+B07vDdX7hEPTvn9pSZO1bcRqHp8mj9pyr+8RVC2GmtEfI2Bi9Ke9Ass0as+zpg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- CSS Style -->
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link rel="stylesheet" href="./assets/css/cabecalho/cabecalho.css" />
+    <link rel="stylesheet" href="./assets/css/cabecalho/cabecalho-nav.css" />
+    <link rel="stylesheet" href="./assets/css/cabecalho/cabecalho-logo.css" />
+    <link
+      rel="stylesheet"
+      href="./assets/css/cabecalho/cabecalho-logotipo.css"
+    />
+    <link rel="stylesheet" href="./assets/css/cabecalho/cabecalho-lista.css" />
+    <link rel="stylesheet" href="./assets/css/cabecalho/cabecalho-item.css" />
+    <link rel="stylesheet" href="./assets/css/cabecalho/cabecalho-link.css" />
+    <link rel="stylesheet" href="./assets/css/apresentacao/apresentacao.css" />
+    <link
+      rel="stylesheet"
+      href="./assets/css/apresentacao/apresentacao-container-texto.css"
+    />
+    <link
+      rel="stylesheet"
+      href="./assets/css/apresentacao/apresentacao-container-imagem.css"
+    />
+    <link
+      rel="stylesheet"
+      href="./assets/css/apresentacao/apresentacao-foto.css"
+    />
+    <link
+      rel="stylesheet"
+      href="./assets/css/apresentacao/apresentacao-titulo.css"
+    />
+    <link
+      rel="stylesheet"
+      href="./assets/css/apresentacao/apresentacao-texto.css"
+    />
+    <link
+      rel="stylesheet"
+      href="./assets/css/apresentacao/apresentacao-lista.css"
+    />
+    <link
+      rel="stylesheet"
+      href="./assets/css/apresentacao/apresentacao-item.css"
+    />
+    <link
+      rel="stylesheet"
+      href="./assets/css/apresentacao/apresentacao-link.css"
+    />
+    <link
+      rel="stylesheet"
+      href="./assets/css/apresentacao/apresentacao-icon.css"
+    />
+    <link rel="stylesheet" href="./assets/css/sobre/sobre.css" />
+    <link rel="stylesheet" href="./assets/css/sobre/sobre-titulo.css" />
+    <link rel="stylesheet" href="./assets/css/sobre/sobre-descricao.css" />
+    <link rel="stylesheet" href="./assets/css/sobre/sobre-assinatura.css" />
+    <link rel="stylesheet" href="./assets/css/informacoes/informacoes.css" />
+    <link
+      rel="stylesheet"
+      href="./assets/css/informacoes/informacoes-titulo.css"
+    />
+    <link
+      rel="stylesheet"
+      href="./assets/css/informacoes/informacoes-lista.css"
+    />
+    <link
+      rel="stylesheet"
+      href="./assets/css/informacoes/informacoes-item.css"
+    />
+    <link
+      rel="stylesheet"
+      href="./assets/css/informacoes/informacoes__icone.css"
+    />
+    <link rel="stylesheet" href="./assets/css/formacao/formacao.css" />
+    <link rel="stylesheet" href="./assets/css/formacao/formacao-titulo.css" />
+    <link rel="stylesheet" href="./assets/css/formacao/formacao-lista.css" />
+    <link rel="stylesheet" href="./assets/css/formacao/formacao-item.css" />
+    <link rel="stylesheet" href="./assets/css/formacao/formacao-nome.css" />
+    <link rel="stylesheet" href="./assets/css/formacao/formacao-fim.css" />
+    <link rel="stylesheet" href="./assets/css/portfolio/portfolio.css" />
+    <link rel="stylesheet" href="./assets/css/portfolio/portfolio-titulo.css" />
+    <link rel="stylesheet" href="./assets/css/portfolio/primeiro.css" />
+    <link rel="stylesheet" href="./assets/css/portfolio/primeiro-imagem.css" />
+    <link rel="stylesheet" href="./assets/css/portfolio/primeiro-caixa.css" />
+    <link rel="stylesheet" href="./assets/css/portfolio/primeiro-titulo.css" />
+    <link
+      rel="stylesheet"
+      href="./assets/css/portfolio/primeiro-subtitulo.css"
+    />
+    <link rel="stylesheet" href="./assets/css/btn.css" />
+    <link rel="stylesheet" href="./assets/css/contato/contato.css" />
+    <link rel="stylesheet" href="./assets/css/contato/contato-formulario.css" />
+    <link
+      rel="stylesheet"
+      href="./assets/css/contato/contato-informacoes.css"
+    />
+    <link rel="stylesheet" href="./assets/css/contato/contato-titulo.css" />
+    <link rel="stylesheet" href="./assets/css/contato/contato-subtitulo.css" />
+    <link rel="stylesheet" href="./assets/css/contato/contato-nome.css" />
+    <link rel="stylesheet" href="./assets/css/contato/contato-email.css" />
+    <link rel="stylesheet" href="./assets/css/contato/contato-assunto.css" />
+    <link rel="stylesheet" href="./assets/css/contato/contato-mensagem.css" />
+    <link rel="stylesheet" href="./assets/css/contato/contato-imagem.css" />
+    <link rel="stylesheet" href="./assets/css/contato/contato-botao.css" />
+    <link rel="stylesheet" href="./assets/css/footer.css" />
+    <link rel="stylesheet" href="./assets/css/logo.css" />
+  </head>
+  <body>
+    <header class="cabecalho">
+      <div class="cabecalho__nav">
+        <div class="cabecalho__logo"></div>
+        <span class="cabecalho__logotipo">Juan Soares</span>
+      </div>
+      <ul class="cabecalho__lista">
+        <li class="cabecalho__item">
+          <a href="#sobre" class="cabecalho__link">Sobre mim</a>
+        </li>
+        <li class="cabecalho__item">
+          <a href="#skills" class="cabecalho__link">Skills</a>
+        </li>
+        <li class="cabecalho__item">
+          <a href="#hobbies" class="cabecalho__link">Hobbies</a>
+        </li>
+        <li class="cabecalho__item">
+          <a href="#formacao" class="cabecalho__link">Formação</a>
+        </li>
+        <li class="cabecalho__item">
+          <a href="#portfolio" class="cabecalho__link">Projetos</a>
+        </li>
+        <li class="cabecalho__item">
+          <a href="mailto:juan07silva@gmail.com" class="cabecalho__link"
+            >juan07silva@gmail.com</a
+          >
+        </li>
+      </ul>
+    </header>
+    <main class="principal">
+      
+      <section class="principal__apresentacao">
+        <div class="principal__container-texto">
+          <h1 class="principal__titulo">
+            Olá, me chamo Juan Soares e sou um Web Developer
+            <span class="typed-text"></span><span class="cursor">&nbsp;</span>
+          </h1>
+          <p class="principal__texto">
+            Eu sou Desenvolvedor Web Full-Stack formado pelo Instituto Proa, com
+            mais interesse e experiência em atuar no Front End.
+          </p>
+          <ul class="principal__lista">
+            <li class="principal__item">
+              <a href="#" class="principal__link">Github</a>
+              <div class="principal__icon"></div>
+            </li>
+            <li class="principal__item">
+              <a href="#" class="principal__link">Linkedin</a>
+              <div class="principal__icon"></div>
+            </li>
+            <li class="principal__item">
+              <a href="#" class="principal__link">Instagram</a>
+              <div class="principal__icon"></div>
+            </li>
+            <li class="principal__item">
+              <a href="#" class="principal__link">Currículo</a>
+              <div class="principal__icon"></div>
+            </li>
+          </ul>
+        </div>
+        <div class="principal__container-imagem">
+          <img
+            class="principal__foto"
+            src="./assets/images/Foto Juan.jpg"
+            alt="Imagem de perfil do Juan Soares"
+          />
+        </div>
+      </section>
+      <section id="sobre" class="sobre">
+        <h2 class="sobre__titulo">Sobre mim</h2>
+        <p class="sobre__descricao">
+          Apaixonado por tecnologia, tive a oportunidade de cursar uma formação
+          técnica para Desenvolvedor Web Full Stack, estudando e aplicando desde
+          lógica de programação, até o desenvolvimento e normalização de banco
+          de dados MySQL. Também tive contato com as linguagens de marcação HTML
+          e CSS e as linguagens de programação JS e PHP. Atualmente iniciei a
+          minha graduação em Ciência da Computação, para dar ênfase a minha
+          carreira de Desenvolvedor, mas também me integrar de vez na área de
+          Tecnologia.
+          <br /><br />
+          Ao longo da minha jornada, tive a experiência de trabalhar no setor
+          administrativo, o que me fez desenvolver outras características
+          profissionais além das técnicas, como um aumento de comunicação
+          assertiva, superando a característica introspectiva.
+        </p>
+        <img
+          src="./assets/images/Assinatura Juan.png"
+          alt="Assinatura do Juan"
+          class="sobre__assinatura"
+        />
+      </section>
+      <section class="informacoes">
+        <h2 id="skills" class="informacoes__titulo">Skills</h2>
+        <ul class="informacoes__lista">
+          <li class="informacoes__item">
+            <img
+              src="./assets/icons/html.png"
+              alt=""
+              class="informacoes__icone"
+            />HTML 5
+          </li>
+          <li class="informacoes__item">
+            <img
+              src="./assets/icons/javascript.png"
+              alt=""
+              class="informacoes__icone"
+            />JavaScript
+          </li>
+          <li class="informacoes__item">
+            <img
+              src="./assets/icons/typescript.png"
+              alt=""
+              class="informacoes__icone"
+            />Typescript
+          </li>
+          <li class="informacoes__item">
+            <img
+              src="./assets/icons/nextjs.png"
+              alt=""
+              class="informacoes__icone"
+            />NextJS
+          </li>
+          <li class="informacoes__item">
+            <img
+              src="./assets/icons/react.png"
+              alt=""
+              class="informacoes__icone"
+            />React
+          </li>
+          <li class="informacoes__item">
+            <img
+              src="./assets/icons/css.png"
+              alt=""
+              class="informacoes__icone"
+            />CSS
+          </li>
+        </ul>
+        <h2 id="hobbies" class="informacoes__titulo">Hobbies</h2>
+        <ul class="informacoes__lista">
+          <li class="informacoes__item">
+            <img
+              src="./assets/icons/treino.png"
+              alt=""
+              class="informacoes__icone"
+            />Andar de Skate
+          </li>
+          <li class="informacoes__item">
+            <img
+              src="./assets/icons/livro.png"
+              alt=""
+              class="informacoes__icone"
+            />Tocar baixo
+          </li>
+          <li class="informacoes__item">
+            <img
+              src="./assets/icons/musica.png"
+              alt=""
+              class="informacoes__icone"
+            />Ouvir música
+          </li>
+          <li class="informacoes__item">
+            <img
+              src="./assets/icons/computador.png"
+              alt=""
+              class="informacoes__icone"
+            />Assistir séries
+          </li>
+          <li class="informacoes__item">
+            <img
+              src="./assets/icons/cozinha.png"
+              alt=""
+              class="informacoes__icone"
+            />Cozinhar
+          </li>
+          <li class="informacoes__item">
+            <img
+              src="./assets/icons/camera.png"
+              alt=""
+              class="informacoes__icone"
+            />Tirar fotos
+          </li>
+        </ul>
+      </section>
+      <section id="formacao" class="formacao">
+        <h2 class="formacao__titulo">Formação acadêmica</h2>
+        <ul class="formacao__lista">
+          <div>
+            <li class="formacao__item">
+              <img
+                class="logo"
+                src="./assets/images/logo-descomplica.png"
+                alt=""
+              />
+            </li>
+            <p class="formacao__nome">Formação Ciência da Computação</p>
+            <p class="formacao__fim">Em Andamento - Descomplica</p>
+          </div>
+          <div>
+            <li class="formacao__item">
+              <img class="logo" src="./assets/images/logo-dio.svg" alt="" />
+            </li>
+            <p class="formacao__nome">Formação JavaScript Developer</p>
+            <p class="formacao__fim">2022 - DIO</p>
+          </div>
+          <div>
+            <li class="formacao__item">
+              <img class="logo" src="./assets/images/logo-dio.svg" alt="" />
+            </li>
+            <p class="formacao__nome">Formação React Developer</p>
+            <p class="formacao__fim">2022 - DIO</p>
+          </div>
+        </ul>
+      </section>
+      <section id="portfolio" class="portfolio">
+        <h2 class="portfolio__titulo">Projetos e Desafios</h2>
+
+        <div class="primeiro">
+          <img
+            src="./assets/images/Encriptador.png"
+            alt=""
+            class="primeiro__imagem"
+          />
+          <div class="primeiro__caixa">
+            <p class="primeiro__titulo">Decodificador de texto</p>
+            <p class="primeiro__subtitulo">Challenge Alura Codificador</p>
+            <div class="primeiro__botoes">
+              <button class="btn btn-branco">Repositorio</button>
+              <button class="btn btn-azul">Ver Demo</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="primeiro">
+          <img
+            src="./assets/images/hangman-game.png"
+            alt=""
+            class="primeiro__imagem"
+          />
+          <div class="primeiro__caixa">
+            <p class="primeiro__titulo">Jogo da Forca</p>
+            <p class="primeiro__subtitulo">Challenge Alura Jogo da Forca</p>
+            <div class="primeiro__botoes">
+              <button class="btn btn-branco">Repositorio</button>
+              <button class="btn btn-azul">Ver Demo</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="primeiro">
+          <img
+            src="./assets/images/GitFind.png"
+            alt=""
+            class="primeiro__imagem"
+          />
+          <div class="primeiro__caixa">
+            <p class="primeiro__titulo">Buscador de usuário</p>
+            <p class="primeiro__subtitulo">Projeto da DIO com ReactJS</p>
+            <div class="primeiro__botoes">
+              <button class="btn btn-branco">Repositorio</button>
+              <button class="btn btn-azul">Ver Demo</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="primeiro">
+          <img
+            src="./assets/images/stranger-pt1.png"
+            alt=""
+            class="primeiro__imagem"
+          />
+          <div class="primeiro__caixa">
+            <p class="primeiro__titulo">Landing Page Stranger Things</p>
+            <p class="primeiro__subtitulo">
+              Projeto da DIO utilizando JavaScript
+            </p>
+            <div class="primeiro__botoes">
+              <button class="btn btn-branco">Repositorio</button>
+              <button class="btn btn-azul">Ver Demo</button>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="contato">
+        <img
+          src="./assets/images/telefone.png"
+          alt=""
+          class="contato__imagem"
+        />
+        <div class="contato__informacoes">
+          <h2 class="contato__titulo">Contato</h2>
+          <p class="contato__subtitulo">
+            Quer entrar em contato comigo?
+            <br />
+            Preencha o formulário ao lado e entrarei em contato o mais rápido
+            possível.
+          </p>
+          <form action="">
+            <p class="contato__formulario">
+              <input
+                type="text"
+                placeholder="Nome"
+                class="contato__nome"
+                id="txtName"
+              />
+              <input
+                type="text"
+                placeholder="E-mail"
+                class="contato__email"
+                id="txtEmail"
+              />
+              <input
+                id="txtAssunto"
+                type="text"
+                placeholder="Assunto"
+                class="contato__assunto"
+              />
+              <textarea
+                placeholder="Mensagem"
+                class="contato__mensagem"
+                id="txtMensagem"
+              ></textarea>
+              <button
+                class="btn btn-azul contato__botao"
+                type="button"
+                id="btnSubscribe"
+              >
+                Enviar mensagem
+              </button>
+            </p>
+          </form>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <p>
+        Desenvolvido por Juan Soares
+        <br />
+        2021
+      </p>
+    </footer>
+
+    <script src="./assets/js/animation.js"></script>
+    <script type="module" src="./assets/js/main.js"></script>
+  </body>
+</html>

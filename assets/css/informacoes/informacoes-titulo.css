@@ -1,0 +1,7 @@
+.informacoes__titulo{
+    color: var(--cinza-escuro);
+    font-size: 2rem;
+    line-height: 38px;
+    font-weight: 700;
+    text-align: center;
+}

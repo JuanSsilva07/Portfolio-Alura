@@ -1,0 +1,7 @@
+.contato{
+    display: flex;
+    justify-content: center;
+    margin: 1rem 0;
+    background: var(--verde-pastel);
+    padding: 6rem 0 3rem 0;
+}

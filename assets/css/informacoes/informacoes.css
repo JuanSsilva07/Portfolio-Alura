@@ -1,0 +1,11 @@
+.informacoes {
+  display: flex;
+  flex-direction: column;
+  padding: 0 4rem;
+}
+
+@media screen and (max-width: 425px) {
+  .informacoes {
+    padding: 0 2rem;
+  }
+}

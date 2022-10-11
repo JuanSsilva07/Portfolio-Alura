@@ -1,0 +1,14 @@
+.primeiro__caixa{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 2rem;
+}
+
+@media screen and (max-width: 425px) {
+    .primeiro__caixa{
+        width: 18.5rem;
+        height: 9rem;
+        margin: 1rem 3rem;
+    }
+}

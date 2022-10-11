@@ -1,0 +1,13 @@
+.formacao__nome{
+    font-size: 22px;
+    color: var(--cinza-escuro);
+    font-weight: 700;
+}
+
+@media screen and (max-width: 425px) {
+    .formacao__nome{
+        max-width: 15rem;
+        display: flex;
+        flex-wrap: wrap;
+    }
+}

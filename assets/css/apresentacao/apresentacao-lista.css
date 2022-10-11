@@ -1,0 +1,7 @@
+.principal__lista{
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    text-align: start;
+    padding: 0;
+}

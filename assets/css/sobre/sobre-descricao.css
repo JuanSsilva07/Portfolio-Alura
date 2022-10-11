@@ -1,0 +1,13 @@
+.sobre__descricao {
+  color: var(--cinza-escuro);
+  line-height: 19px;
+  font-weight: 400;
+  text-align: start;
+  width: 60%;
+}
+
+@media screen and (max-width: 768px) {
+  .sobre__descricao{
+    width: 100%;
+  }
+}

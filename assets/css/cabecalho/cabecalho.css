@@ -1,0 +1,12 @@
+.cabecalho{
+    display: flex;
+    justify-content: space-around;
+    margin: 1rem 0;
+}
+
+@media screen and (max-width: 768px) {
+    .cabecalho{
+        justify-content: space-between;
+        margin: 0 1rem;
+    } 
+}

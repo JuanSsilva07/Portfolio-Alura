@@ -1,0 +1,13 @@
+.cabecalho__link{
+    color: var(--cinza-escuro);
+    font-weight: 500;
+    text-decoration: none;
+    line-height: 19px;
+    transition: all .400ms ease-in-out;
+    margin: 0 .3rem;
+}
+
+.cabecalho__link:hover{
+    opacity: .7;
+}
+

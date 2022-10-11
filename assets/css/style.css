@@ -1,0 +1,36 @@
+:root{
+--cinza-escuro: #464646;  
+--bege-claro: #EDE4E0; 
+--verde-pastel: #C8DBBE;
+--marrom-pastel-claro: #9F8772; 
+--marrom-pastel-escuro: #665A48; 
+}
+
+body{
+    font-family: 'Raleway', sans-serif;
+    background: var(--bege-claro);
+}
+
+/* Animation */
+
+.typed-text {
+    font-weight: 500;
+    color: var(--marrom-pastel-escuro);
+  }
+.cursor {
+    display: inline-block;
+    background-color: #ccc;
+    margin-left: 0.1rem;
+    width: 3px;
+    animation: blink 1s infinite;
+  }
+.cursor.typing {
+    animation: none;
+  }
+  @keyframes blink {
+    0%  { background-color: #ccc; }
+    49% { background-color: #ccc; }
+    50% { background-color: transparent; }
+    99% { background-color: transparent; }
+    100%  { background-color: #ccc; }
+  }

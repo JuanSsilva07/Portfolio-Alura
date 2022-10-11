@@ -1,0 +1,10 @@
+.principal__link{
+    color: var(--cinza-escuro);
+    font-weight: 500 ;
+    text-decoration: none;
+    transition: all ease-in-out;
+}
+
+.principal__link:hover{
+    text-decoration: underline;
+}

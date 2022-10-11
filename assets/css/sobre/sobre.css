@@ -1,0 +1,14 @@
+.sobre{
+    background: var(--verde-pastel);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 3rem 10rem;
+}
+
+
+@media screen and (max-width: 768px) {
+    .sobre{
+    padding: 3rem 2rem;
+    }
+  }

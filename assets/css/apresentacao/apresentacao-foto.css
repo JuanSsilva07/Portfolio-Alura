@@ -1,0 +1,12 @@
+.principal__foto{
+    width: 23rem;
+    height: 23rem;
+    border-radius: 100%;
+}
+
+@media screen and (max-width: 768px) {
+    .principal__foto{
+        width: 10rem;
+        height: 10rem;
+    }
+}

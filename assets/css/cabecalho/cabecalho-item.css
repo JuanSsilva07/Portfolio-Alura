@@ -1,0 +1,12 @@
+.cabecalho__item{
+    margin: 0 .5rem;
+}
+
+@media screen and (max-width: 768px) {
+    .cabecalho__item{
+        display: none;
+    }
+    .cabecalho__item:nth-last-child(1){
+        display: block;
+    }
+}

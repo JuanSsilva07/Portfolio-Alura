@@ -1,0 +1,7 @@
+.portfolio__titulo{
+    color: var(--cinza-escuro);
+    font-size: 2rem;
+    font-weight: 700;
+    text-align: center;
+    line-height: 37px;
+}

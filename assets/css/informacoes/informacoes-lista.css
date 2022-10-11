@@ -1,0 +1,14 @@
+.informacoes__lista{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    list-style: none;
+    padding: 0;
+    margin: 0 2rem;
+}
+
+@media screen and (max-width: 425px) {
+    .informacoes__lista{
+        margin: 0 .3rem;
+    } 
+}

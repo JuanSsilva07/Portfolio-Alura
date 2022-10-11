@@ -1,0 +1,25 @@
+.primeiro{
+    display: flex;
+    justify-content: center;
+}
+
+.primeiro:nth-child(3){
+    flex-direction: row-reverse;
+}
+
+.primeiro:nth-child(5){
+    flex-direction: row-reverse;
+}
+
+@media screen and (max-width: 768px) {
+    .primeiro{
+        flex-direction: column;
+    }
+    .primeiro:nth-child(3){
+        flex-direction: column;
+    }
+    
+    .primeiro:nth-child(5){
+        flex-direction: column;
+    }
+}

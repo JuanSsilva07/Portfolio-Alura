@@ -1,0 +1,12 @@
+.principal__texto{
+    color: var(--cinza-escuro);
+    font-weight: 400;
+    font-size: 1.3rem;
+}
+
+@media screen and (max-width: 768px) {
+    .principal__texto{
+        font-size: 1rem;
+        line-height: 18.78px;
+    }
+}
