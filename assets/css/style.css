@@ -5,10 +5,16 @@
 --marrom-pastel-claro: #9F8772; 
 --marrom-pastel-escuro: #665A48; 
 }
+html{
+  scroll-behavior: smooth !important;
+}
 
 body{
     font-family: 'Raleway', sans-serif;
     background: var(--bege-claro);
+}
+a{
+    text-decoration: none;
 }
 
 /* Animation */
